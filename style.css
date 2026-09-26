@@ -88,19 +88,12 @@ body {
 }
 
 .fotomini{
+    width: 100%;
     height: 200px;
+    object-fit: cover;
     border-radius: 8px;
-    margin-bottom: 12px;   
-    background-color: var(--color-marca);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat; 
+    
 }
-
-.producto:nth-child(2) .fotomini {background-image: url('./1kg.jpg');}
-.producto:nth-child(6)  .fotomini {background-image: url('./frambuesas.jpg');}
-.producto:nth-child(7)  .fotomini {background-image: url('./frutillas.jpg');}
-.producto:nth-child(8)  .fotomini {background-image: url('./fram_keto.jpg');} 
 
 h1{
     color:var(--color-logo);

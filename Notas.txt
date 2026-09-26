@@ -1,1 +1,3 @@
 Me gustaria agregar otra pagína extra que sea el contacto, y ahí poner el los dos contactos de whatsapp(x mayor y x menor) y de ahí meter el formulario para que envíe sus datos en caso de tener alguna sugerencia o querer contactarse directamente con la empresa
+
+pasar los nth-child a img en el HTML index
