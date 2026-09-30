@@ -1,5 +1,5 @@
 :root {
-  --color-body: #2492ff;
+  --color-body: #b8d1ff;
   --color-marca: #91c8ff;
   --color-logo: #592D24;
   --color-fondo: #ede8d0;
@@ -15,7 +15,7 @@
 body {
   font-family: system-ui, sans-serif;
   font-size: 20px;
-  background-color:var(--color-body);
+  background: linear-gradient(80deg,#b8d1ff,#F8D7DA );
   color: var(--color-logo);
 }
 
@@ -120,6 +120,7 @@ body {
     padding: 16px;
     width: 250px;
     font-size: 80%;
+    justify-content: space-between;
 
 
     background-color: #ffffff;
@@ -127,6 +128,8 @@ body {
     border-radius: 8px;
     
 }
+
+
 
 .producto:hover{
   transition: all 1s ease;
