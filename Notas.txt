@@ -1,3 +1,11 @@
 Me gustaria agregar otra pagína extra que sea sabores para meter mas info
 
 pasar los nth-child a img en el HTML index
+
+
+
+-Agregar las etiquetas del más vendido
+-Agregar required al html
+-Arreglar grid productos en responsive
+-Agregar etiquetas de nuevo
+-Agregar algunos productos más
