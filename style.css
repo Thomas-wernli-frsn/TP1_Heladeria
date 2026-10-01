@@ -74,7 +74,7 @@ body {
     background-image:url(./foto/Joolz-local.png);
     background-size:cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     background-position: center;
     color: #fff;
     
@@ -160,7 +160,7 @@ body {
   background-image: url("./foto/Joolz_banner.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   background-position: center;
 
   font-size: 40px;
@@ -364,9 +364,10 @@ button:hover {
     gap: 12px;
     padding: 10px;
   }
+
+
   .secciones{
     flex-direction: column;
-
   }
   .secciones ul {
     
@@ -374,8 +375,8 @@ button:hover {
     flex-wrap: wrap;
     align-items: center;
     gap: 30px;
-    
   }
+
 
   .contenedor{
     grid-template-columns: 1fr;
