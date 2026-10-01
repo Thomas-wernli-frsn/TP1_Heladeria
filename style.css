@@ -96,8 +96,6 @@ body {
 .contenedor{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  flex-direction: row;
-  flex-wrap: wrap;
   justify-content: center;
   align-items: stretch;
   text-align: center;
@@ -121,19 +119,39 @@ body {
     font-size: 80%;
     justify-content: space-between;
 
-
+    
     background-color: #ffffff;
     border: 3px solid var(--color-marca);
     border-radius: 8px;
     
 }
 
+.producto.destacado{
+  border-color: rgb(248, 111, 255);
+}
 
 
 .producto:hover{
   transition: all 1s ease;
   transform: scale(1.1);
   border-color: var(--color-logo);
+}
+
+.etiqueta-destacado{
+  position: absolute;
+  background-color: rgb(248, 111, 255);
+  color: #ffffff;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.etiqueta-nuevo{
+  position: absolute;
+  background-color: var(--color-logo);
+  color: #ffffff;
+  padding: 4px 8px;
+  border-radius: 4px;
+  
 }
 
 .heroprod {
@@ -172,7 +190,7 @@ h2{
     color: black;
 }
 h3{
-    color: rgb(94, 94, 94)
+    color: rgb(15, 178, 0);
 }
 
 .aboutUs{
@@ -359,9 +377,11 @@ button:hover {
   }
 
   .contenedor{
+    grid-template-columns: 1fr;
     width: 95%;
     padding: 10px;
-    gap: 10px;
+    gap: 15px;
+    justify-items: center
     
   }
 
